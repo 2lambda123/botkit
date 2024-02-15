@@ -1,0 +1,33 @@
+meta:
+  schema-version: 0.1.0
+  created-on: "2024-02-15T11:42:50Z"
+  cli-version: 0.2.0
+projects:
+  2lambda123-botkit-packages-testbot-package-lock.json:
+    targets:
+      - package.json
+    manager:
+      ecosystem: node
+      name: npm
+      version: "5"
+    overrides:
+      node-jose:
+        2.1.0:
+          use: 2.1.0-sp1
+      axios:
+        0.21.4:
+          use: 0.21.4-sp1
+      tough-cookie:
+        2.5.0:
+          use: 2.5.0-sp1
+      async:
+        2.6.3:
+          use: 2.6.3-sp1
+      semver:
+        6.3.0:
+          use: 6.3.0-sp1
+        5.7.1:
+          use: 5.7.1-sp1
+      xml2js:
+        0.4.23:
+          use: 0.4.23-sp1
