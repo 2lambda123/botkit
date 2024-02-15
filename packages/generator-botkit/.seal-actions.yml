@@ -1,0 +1,18 @@
+meta:
+  schema-version: 0.1.0
+  created-on: "2024-02-15T11:42:46Z"
+  cli-version: 0.2.0
+projects:
+  2lambda123-botkit-packages-generator-botkit-package-lock.json:
+    targets:
+      - package.json
+    manager:
+      ecosystem: node
+      name: npm
+      version: "5"
+    overrides:
+      semver:
+        7.3.5:
+          use: 7.3.5-sp1
+        5.7.1:
+          use: 5.7.1-sp1
